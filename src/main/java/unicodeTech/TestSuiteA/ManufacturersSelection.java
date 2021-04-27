@@ -25,5 +25,7 @@ public class ManufacturersSelection extends ParentTestSuiteA{
 			manuValues= manuDD.findElements(By.tagName("option"));
 		}
 		
+		
+	
 	}
 }
