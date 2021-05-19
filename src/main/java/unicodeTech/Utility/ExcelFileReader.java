@@ -49,9 +49,8 @@ public class ExcelFileReader {
 	public int totalColumn(String sheetName) {
 		
 		sheet = wb.getSheet(sheetName);
-		
 		int cols = sheet.getRow(0).getLastCellNum();
-		//cols = cols - 1;   //Edited by Tanmay
+		//cols = cols - 1;   
 	//	cols = cols + 1;
 		
 		return cols;
